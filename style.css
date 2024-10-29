@@ -1,0 +1,188 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.none {
+    display: none;
+}
+
+header {
+    height: 800px;
+    background-color: blue;
+}
+
+.title {
+    text-align: center;
+    font-family: SUSE;
+    font-size: 100px;
+    color: cornflowerblue;
+}
+
+.intro-title {
+    position: relative;
+    text-align: center;
+    bottom: 101px; /* Change this number later to be correct to fit the images */
+    font-size: 140px;
+}
+
+.sub-title {
+    font-size: 60px;
+    color: burlywood;
+    margin: 5px;
+}
+
+.item-title {
+    font-size: 30px;
+    color: chartreuse;
+    margin: 20px;
+}
+
+.pfp {
+    flex: 1;
+    width: 50vw;
+    height: 100%;
+}
+
+.schiff-pic {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 255)), URL(images/schiff1.jpg);
+    background-size: cover;
+    background-color: pink;
+    background-position: center;
+}
+
+.garvey-pic {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 255), rgba(0, 0, 0, 0)), URL(images/garvey1.jpg);
+    background-size: cover;
+    background-color: rgb(45, 173, 33);
+    background-position: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.image-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#person-background {
+    margin-top: 200px; /* Need change later to match top */
+}
+
+.person-info {
+    justify-content: space-evenly;
+}
+
+.person {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 600px;
+    height: 900px;
+    border-radius: 50px;
+    background-color: chocolate;
+    flex-direction: column;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+.person-pic {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.person-info-text {
+    height: 25%;
+}
+
+.person-text {
+    text-align: center;
+    font-size: 20px;
+    font-family: Ubuntu;
+}
+
+/*
+.person div {
+    background-color: blueviolet;
+}*/
+
+#political-idea {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.issue-container {
+    margin: auto;
+    width: 80%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.issue {
+    flex-direction: column;
+    margin: 10px;
+    height: 800px;
+    width: 370px;
+    border-radius: 30px;
+    background-color: darkblue;
+    box-shadow: 0px 0px 10px black;
+}
+
+.issue-text {
+    height: 100%;
+    text-align: center;
+    color: white;
+    font-family: Ubuntu;
+}
+
+.left-right-layout {
+    background-color: cadetblue;
+    height: 95vh;
+    justify-content: space-between;
+    
+}
+
+.left-right-layout div {
+    width: 50%; /* Change these values later */
+    height: 100%;
+}
+
+.camp-text {
+    align-items: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    font-size: 20px;
+    font-family: Ubuntu;
+}
+
+#schiff-camp {
+    background-color: brown;
+}
+
+#garvey-camp {
+    background-color: coral;
+}
+
+#media-cov {
+    background-color: darkcyan;
+}
+
+#prediction-comparison {
+    background-color: darkgreen;
+    height: 1000px;
+    flex-direction: column;
+}
+
+.vert-align {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
